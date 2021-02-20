@@ -1,0 +1,142 @@
+<html>
+<head>
+  <title>About</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style>
+body{
+  background-image:url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v462-n-130-textureidea_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=9465282a2b0a375f4f5b120d7bbad882);
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.contact{
+  display:flex;
+  flex-direction:column;
+}
+
+.main-1{
+    display:flex;
+    justify-content: flex-end;
+  }
+.main-1 div{
+      color: red;
+    }
+.m1{
+  flex:3;
+  margin-left: 100%;
+  padding:10px;
+}
+.m2{
+  flex:1;
+    padding:10px;
+}
+.m3{
+  flex:1;
+    padding:10px;
+}
+
+.contact-2{
+  height:100%;
+  margin-left: 500px;
+  padding:80px;
+}
+#i1{
+  border-radius: 50%;
+}
+.item1 { grid-area: header; }
+
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+.about-3 {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'right right right right right right'
+    'main main main main main main'
+    'footer footer footer footer footer footer';
+  grid-gap: 5px ;
+  background-color: grey;
+  padding: 5px;
+}
+
+.about-3 > div {
+  background-color: beige;
+  text-align: center;
+
+  font-size: 30px;
+}
+summary{
+  color:blue;
+}
+.about-3{
+  background-color:black;
+}
+
+</style>
+<body>
+    <div class="contact">
+          <div class="main-1">
+              <div class="m1">
+                  <a href = "https://www.google.com/">
+                      <h2 style="color:red">ABOUT</h2>
+                  </a>
+              </div>
+              <div class="m2">
+                  <a href="https://ujjwal33333.github.io/project/">
+                      <h2 style="color:red">PROJECTS</h2>
+                  </a>
+              </div>
+              <div class="m3">
+                  <a href="https://www.google.com/">
+                      <h2 style="color:red">CONTACTS</h2>
+                  </a>
+              </div>
+          </div>
+
+          <div class="contact-2">
+                <div>
+                  <img id="i1" src="https://scontent.fdel5-1.fna.fbcdn.net/v/t1.0-9/67295782_104264737571163_248346974833606656_o.jpg?_nc_cat=108&ccb=3&_nc_sid=09cbfe&_nc_ohc=ffGIDcl6lgoAX_6yTqL&_nc_ht=scontent.fdel5-1.fna&oh=11029e79630465e30b3a34d49ee03757&oe=6058553E" style="height:400px;width:400px"; >
+                </div>
+          </div>
+          <div class="about-3">
+                <div class="item1">
+                  <details>
+                            <summary  style="background-color:lightgrey;">Introduction</summary>
+                            <ul>
+                                <li><p>I am Ujjwal Tyagi currently pursuing B.Tech in Mechanical Engineering at IIT DELHI.</p></li>
+                            </ul>
+                  </details>
+                </div>
+                <div class="item3">
+                  <details>
+                            <summary  style="background-color:lightgrey;">Education</summary>
+                            <ul>
+                                <li>XII - 93.2%</li>
+                                <li> X - 10 CGPA</li>
+                            </ul>
+                  </details>
+
+                </div>
+                <div class="item4">
+                  <details>
+                            <summary  style="background-color:lightgrey;">Journey</summary>
+                            <ul>
+                                <li><p>I am currently exploring my interest through Explorin</p></li>
+                            </ul>
+                  </details>
+                </div>
+                <div class="item5">
+                  <details>
+                            <summary  style="background-color:lightgrey;">Skills Earned</summary>
+                            <ul>
+                                <li><p> Languages known: C++, python, HTML5, Javascript </p></li>
+                            </ul>
+                  </details>
+                </div>
+          </div>
+    </div>
+
+</body>
+</html>
